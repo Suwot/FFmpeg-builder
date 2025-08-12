@@ -1,0 +1,11 @@
+/Users/sellavi/Desktop/Codes/video-downloader-mv3/ffmpeg-builder/dist/mac/arm64/jpeg/lib/cmake/openjpeg-2.5/OpenJPEGTargets.cmake
+/Users/sellavi/Desktop/Codes/video-downloader-mv3/ffmpeg-builder/dist/mac/arm64/jpeg/lib/cmake/openjpeg-2.5/OpenJPEGTargets-noconfig.cmake
+/Users/sellavi/Desktop/Codes/video-downloader-mv3/ffmpeg-builder/dist/mac/arm64/jpeg/lib/cmake/openjpeg-2.5/OpenJPEGConfig.cmake
+/Users/sellavi/Desktop/Codes/video-downloader-mv3/ffmpeg-builder/dist/mac/arm64/jpeg/lib/pkgconfig/libopenjp2.pc
+/Users/sellavi/Desktop/Codes/video-downloader-mv3/ffmpeg-builder/dist/mac/arm64/jpeg/include/openjpeg-2.5/opj_config.h
+/Users/sellavi/Desktop/Codes/video-downloader-mv3/ffmpeg-builder/dist/mac/arm64/jpeg/lib/libopenjp2.a
+/Users/sellavi/Desktop/Codes/video-downloader-mv3/ffmpeg-builder/dist/mac/arm64/jpeg/include/openjpeg-2.5/openjpeg.h
+/Users/sellavi/Desktop/Codes/video-downloader-mv3/ffmpeg-builder/dist/mac/arm64/jpeg/include/openjpeg-2.5/opj_stdint.h
+/Users/sellavi/Desktop/Codes/video-downloader-mv3/ffmpeg-builder/dist/mac/arm64/jpeg/bin/opj_decompress
+/Users/sellavi/Desktop/Codes/video-downloader-mv3/ffmpeg-builder/dist/mac/arm64/jpeg/bin/opj_compress
+/Users/sellavi/Desktop/Codes/video-downloader-mv3/ffmpeg-builder/dist/mac/arm64/jpeg/bin/opj_dump

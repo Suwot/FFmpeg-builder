@@ -1,0 +1,105 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library 'System' not found
+cc: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library 'c++' not found
+c++: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Performing C SOURCE FILE Test SVE_COMPILATION_C_TEST_COMPILED failed with the following output:
+Change Dir: /Users/sellavi/Desktop/Codes/video-downloader-mv3/ffmpeg-builder/modules/x265/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_58337/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_58337.dir/build.make CMakeFiles/cmTC_58337.dir/build
+Building C object CMakeFiles/cmTC_58337.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -DSVE_COMPILATION_C_TEST_COMPILED  -march=armv8.2-a+dotprod+i8mm+sve -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_58337.dir/src.c.o -MF CMakeFiles/cmTC_58337.dir/src.c.o.d -o CMakeFiles/cmTC_58337.dir/src.c.o -c /Users/sellavi/Desktop/Codes/video-downloader-mv3/ffmpeg-builder/modules/x265/CMakeFiles/CMakeTmp/src.c
+error: Scalable vectors function return values not yet supported on Darwin for function: func. Consider always_inline.
+fatal error: error in backend: Unsupported feature
+cc: error: clang frontend command failed with exit code 70 (use -v to see invocation)
+Apple clang version 16.0.0 (clang-1600.0.26.6)
+Target: arm64-apple-darwin25.0.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+cc: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+Preprocessed source(s) and associated run script(s) are located at:
+cc: note: diagnostic msg: /var/folders/gs/jrrkjnvx7b570rq0__sbvtlh0000gn/T/src-7b935d.c
+cc: note: diagnostic msg: /var/folders/gs/jrrkjnvx7b570rq0__sbvtlh0000gn/T/src-7b935d.sh
+cc: note: diagnostic msg: Crash backtrace is located in
+cc: note: diagnostic msg: /Users/sellavi/Library/Logs/DiagnosticReports/clang_<YYYY-MM-DD-HHMMSS>_<hostname>.crash
+cc: note: diagnostic msg: (choose the .crash file that corresponds to your crash)
+cc: note: diagnostic msg: 
+
+********************
+make[1]: *** [CMakeFiles/cmTC_58337.dir/src.c.o] Error 1
+make: *** [cmTC_58337/fast] Error 2
+
+
+Source file was:
+
+#include <arm_sve.h>
+void other();
+svfloat32_t func(svfloat32_t a) {
+  other();
+  return a;
+}
+int main() { return 0; }
+Performing C++ SOURCE FILE Test SVE_COMPILATION_CXX_TEST_COMPILED failed with the following output:
+Change Dir: /Users/sellavi/Desktop/Codes/video-downloader-mv3/ffmpeg-builder/modules/x265/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_db3e2/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_db3e2.dir/build.make CMakeFiles/cmTC_db3e2.dir/build
+Building CXX object CMakeFiles/cmTC_db3e2.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DSVE_COMPILATION_CXX_TEST_COMPILED  -march=armv8.2-a+dotprod+i8mm+sve -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -MD -MT CMakeFiles/cmTC_db3e2.dir/src.cxx.o -MF CMakeFiles/cmTC_db3e2.dir/src.cxx.o.d -o CMakeFiles/cmTC_db3e2.dir/src.cxx.o -c /Users/sellavi/Desktop/Codes/video-downloader-mv3/ffmpeg-builder/modules/x265/CMakeFiles/CMakeTmp/src.cxx
+error: Scalable vectors function return values not yet supported on Darwin for function: _Z4funcu13__SVFloat32_t. Consider always_inline.
+fatal error: error in backend: Unsupported feature
+c++: error: clang frontend command failed with exit code 70 (use -v to see invocation)
+Apple clang version 16.0.0 (clang-1600.0.26.6)
+Target: arm64-apple-darwin25.0.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+c++: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+Preprocessed source(s) and associated run script(s) are located at:
+c++: note: diagnostic msg: /var/folders/gs/jrrkjnvx7b570rq0__sbvtlh0000gn/T/src-d60f1f.cpp
+c++: note: diagnostic msg: /var/folders/gs/jrrkjnvx7b570rq0__sbvtlh0000gn/T/src-d60f1f.sh
+c++: note: diagnostic msg: Crash backtrace is located in
+c++: note: diagnostic msg: /Users/sellavi/Library/Logs/DiagnosticReports/clang_<YYYY-MM-DD-HHMMSS>_<hostname>.crash
+c++: note: diagnostic msg: (choose the .crash file that corresponds to your crash)
+c++: note: diagnostic msg: 
+
+********************
+make[1]: *** [CMakeFiles/cmTC_db3e2.dir/src.cxx.o] Error 1
+make: *** [cmTC_db3e2/fast] Error 2
+
+
+Source file was:
+
+#include <arm_sve.h>
+void other();
+svfloat32_t func(svfloat32_t a) {
+  other();
+  return a;
+}
+int main() { return 0; }
+Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+Apple clang version 16.0.0 (clang-1600.0.26.6)
+Target: arm64-apple-darwin25.0.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin

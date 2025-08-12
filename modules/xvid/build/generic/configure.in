@@ -318,7 +318,6 @@ case "$target_os" in
 	STATIC_LIB="xvidcore.\$(STATIC_EXTENSION)"
 	SHARED_LIB="xvidcore.\$(SHARED_EXTENSION)"
 	SPECIFIC_LDFLAGS="-shared -Wl,--dll,--out-implib,\$@.a libxvidcore.def"
-	SPECIFIC_CFLAGS="-mno-cygwin"
 	;;
      darwin*)
 	STATIC_LIB="libxvidcore.\$(STATIC_EXTENSION)"

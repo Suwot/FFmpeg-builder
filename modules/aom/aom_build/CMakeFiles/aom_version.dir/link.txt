@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libaom_version.a CMakeFiles/aom_version.dir/gen_src/aom_version_no_op.c.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libaom_version.a

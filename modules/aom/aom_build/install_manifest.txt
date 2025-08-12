@@ -1,0 +1,12 @@
+/Users/sellavi/Desktop/Codes/video-downloader-mv3/ffmpeg-builder/dist/mac/arm64/aom/include/aom/aom.h
+/Users/sellavi/Desktop/Codes/video-downloader-mv3/ffmpeg-builder/dist/mac/arm64/aom/include/aom/aom_codec.h
+/Users/sellavi/Desktop/Codes/video-downloader-mv3/ffmpeg-builder/dist/mac/arm64/aom/include/aom/aom_frame_buffer.h
+/Users/sellavi/Desktop/Codes/video-downloader-mv3/ffmpeg-builder/dist/mac/arm64/aom/include/aom/aom_image.h
+/Users/sellavi/Desktop/Codes/video-downloader-mv3/ffmpeg-builder/dist/mac/arm64/aom/include/aom/aom_integer.h
+/Users/sellavi/Desktop/Codes/video-downloader-mv3/ffmpeg-builder/dist/mac/arm64/aom/include/aom/aom_decoder.h
+/Users/sellavi/Desktop/Codes/video-downloader-mv3/ffmpeg-builder/dist/mac/arm64/aom/include/aom/aomdx.h
+/Users/sellavi/Desktop/Codes/video-downloader-mv3/ffmpeg-builder/dist/mac/arm64/aom/include/aom/aomcx.h
+/Users/sellavi/Desktop/Codes/video-downloader-mv3/ffmpeg-builder/dist/mac/arm64/aom/include/aom/aom_encoder.h
+/Users/sellavi/Desktop/Codes/video-downloader-mv3/ffmpeg-builder/dist/mac/arm64/aom/include/aom/aom_external_partition.h
+/Users/sellavi/Desktop/Codes/video-downloader-mv3/ffmpeg-builder/dist/mac/arm64/aom/lib/pkgconfig/aom.pc
+/Users/sellavi/Desktop/Codes/video-downloader-mv3/ffmpeg-builder/dist/mac/arm64/aom/lib/libaom.a
